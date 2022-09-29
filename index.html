@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ana Paula Sánchez">
+	<meta name="copyright" content="&copy; Ana Paula 2022. Todos los derechos reservados.">
+	<meta name="email" content="ana_paula2000@live.com.mx">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+            <div class="calendar-header">
+                <span class="month-picker" id="month-picker">May</span>
+                <div class="year-picker" id="year-picker">
+                    <span class="year-change" id="pre-year">
+                        <pre> < </pre>
+                    </span>
+                    <span id="year">2022</span>
+                    <span class="year-change" id="next-year">
+                        <pre> > </pre>
+                    </span>
+                </div>
+            </div> <!--Fin Calendar-Header-->
+
+            <div class="calendar-body">
+                <div class="calendar-week-days">
+                    <div>Domingo</div>
+                    <div>Lunes</div>
+                    <div>Martes</div>
+                    <div>Miercoles</div>
+                    <div>Jueves</div>
+                    <div>Viernes</div>
+                    <div>Sábado</div>
+                </div> <!--Fin Dias-->
+                <div class="calendar-days">
+
+                </div>
+            </div> <!--Fin Calendar Body-->
+            <div class="calendar-footer">
+
+            </div> <!--Fin Calendar Footer-->
+            <div class="date-time-formate">
+                <div class="day-text-formate">HOY</div>
+                <div class="date-time-value">
+                    <div class="time-formate">02:51:20</div>
+                    <div class="date-formate">23-july-2022</div>
+                </div> <!--Fin date-time-value-->
+            </div>
+            <div class="month-list"></div>
+        </div><!--Fin calendar-->
+    </div><!--Fin container-->
+    <script src="/js/script.js"></script>
+</body>
+</html>
